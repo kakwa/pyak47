@@ -13,9 +13,9 @@ import thread
 
 
 
-def launch_rpc_server(bind_addr, port, project_name, run_callback):
+def launch_rpc_server(bind_addr, port, project_name, run_callback, projects_dir='projects'):
     server = SimpleXMLRPCServer.SimpleXMLRPCServer((bind_addr, port), logRequests=False)
-    server.register_instance(RemoteControl(project_name, run_callback))
+    server.register_instance(RemoteControl(project_name, run_callback, projects_dir))
     server.register_introspection_functions()
     print '\nMulti-Mechanize: %s listening on port %i' % (bind_addr, port)
     print 'waiting for xml-rpc commands...\n'
@@ -27,11 +27,12 @@ def launch_rpc_server(bind_addr, port, project_name, run_callback):
 
 
 class RemoteControl(object):
-    def __init__(self, project_name, run_callback):
+    def __init__(self, project_name, run_callback, projects_dir='projects'):
         self.project_name = project_name
         self.run_callback = run_callback
         self.test_running = False
         self.output_dir = None
+        self.projects_dir = projects_dir
 
     def run_test(self):
         if self.test_running:
@@ -44,12 +45,18 @@ class RemoteControl(object):
         return self.test_running
 
     def update_config(self, config):
-        with open('projects/%s/config.cfg' % self.project_name, 'w') as f:
+        with open('%(projects_dir)s/%(project)s/config.cfg' % {
+            'project': self.project_name,
+            'projects_dir': self.projects_dir
+            } , 'w') as f:
             f.write(config)
             return True
 
     def get_config(self):
-        with open('projects/%s/config.cfg' % self.project_name, 'r') as f:
+        with open('%(projects_dir)s/%(project)s/config.cfg' % {
+            'project': self.project_name,
+            'projects_dir': self.projects_dir
+            } , 'r') as f:
             return f.read()
 
     def get_project_name(self):
