@@ -1,4 +1,3 @@
-
 ================================================
     Multi-Mechanize - Performance Test Framework
 ================================================
@@ -73,6 +72,7 @@ installing system dependencies.
 * install dependencies on Debian/Ubuntu::
 
     $ sudo apt-get install python-virtualenv python-matplotlib
+
 
 * install multi-mechanize from PyPI in a virtualenv::
 
