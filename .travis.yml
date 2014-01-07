@@ -3,9 +3,7 @@ language: python
 before_install:
     - sudo apt-get update -qq
     - sudo apt-get install -qq python-matplotlib python-numpy
-    - python --version 2>&1|sed "s/.*\ \(.*\)\.[0-9]$/\1/"
-    - version_short=`python --version 2>&1|sed "s/.*\ \(.*\)\.[0-9]$/\1/"`; ln -s /usr/share/pyshared/matplotlib /home/travis/virtualenv/python$version_short/lib/python$version_short/site-packages/matplotlib
-    - version_short=`python --version 2>&1|sed "s/.*\ \(.*\)\.[0-9]$/\1/"`; ln -s /usr/share/pyshared/numpy /home/travis/virtualenv/python$version_short/lib/python$version_short/site-packages/numpy
+    - version_short=`python --version 2>&1|sed "s/.*\ \(.*\)\.[0-9]$/\1/"`; find  /usr/share/pyshared/ -maxdepth 1 -print0 | xargs -I{} -0 ln -s {} /home/travis/virtualenv/python$version_short/lib/python$version_short/site-packages/
 
 install:
     - pip install -e . --use-mirrors 
