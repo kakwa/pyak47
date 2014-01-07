@@ -2,7 +2,7 @@ language: python
 
 before_install:
     - sudo apt-get update -qq
-    - sudo apt-get install -qq python-matplotlib python3-matplotlib python-numpy python3-numpy
+    - sudo apt-get install -qq python-matplotlib python-numpy
 
 install:
     - pip install -e . --use-mirrors 
