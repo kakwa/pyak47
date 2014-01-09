@@ -13,7 +13,7 @@ Performance Test Framework.
 
 |
 
-.. figure:: https://raw2.github.com/kakwa/pyak47/master/docs/assets/graphs.png
+.. figure:: https://raw2.github.com/kakwa/pyak47/master/docs/assets/banner.png
     :align: center
 
 ----

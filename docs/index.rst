@@ -6,7 +6,7 @@
 
 |
 
-.. image:: assets/graphs.png
+.. image:: assets/banner.png
 
 ----
 
