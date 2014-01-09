@@ -6,10 +6,6 @@
 
 |
 
-.. image:: assets/pyk47-200.png
-
-|
-
 .. image:: assets/graphs.png
 
 ----
