@@ -17,3 +17,9 @@ script:
   - rm -rf my_project
   - pyak47-newproject my_project
   - pyak47-run my_project
+
+notifications:
+  irc:
+    channels:
+      - "chat.freenode.net#pyak47"
+    skip_join: true
