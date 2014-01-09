@@ -14,7 +14,7 @@ import sys
 import threading
 import time
 
-from multimechanize.script_loader import ScriptLoader
+from pyak47.script_loader import ScriptLoader
 import os.path
 
 def init(projects_dir, project_name):

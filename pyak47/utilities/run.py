@@ -21,22 +21,22 @@ import time
 
 try:
     # installed
-    import multimechanize
+    import pyak47
 except ImportError:
     # from dev/source
     this_dir = os.path.abspath(os.path.dirname(__file__))
     sys.path.append(os.path.join(this_dir, '../../'))
-    import multimechanize
+    import pyak47
 
-import multimechanize.core as core
-import multimechanize.results as results
-import multimechanize.resultswriter as resultswriter
-import multimechanize.progressbar as progressbar
-from multimechanize import __version__ as VERSION
+import pyak47.core as core
+import pyak47.results as results
+import pyak47.resultswriter as resultswriter
+import pyak47.progressbar as progressbar
+from pyak47 import __version__ as VERSION
 
 def main():
     """
-    Main function to run multimechanize benchmark/performance test.
+    Main function to run pyak47 benchmark/performance test.
     """
 
     usage = 'Usage: %prog <project name> [options]'
@@ -61,8 +61,8 @@ def main():
     if cmd_opts.results_dir:  # don't run a test, just re-process results
         rerun_results(project_name, cmd_opts, cmd_opts.results_dir)
     elif cmd_opts.port:
-        import multimechanize.rpcserver
-        multimechanize.rpcserver.launch_rpc_server(cmd_opts.bind_addr, 
+        import pyak47.rpcserver
+        pyak47.rpcserver.launch_rpc_server(cmd_opts.bind_addr, 
                 cmd_opts.port, 
                 project_name, 
                 run_test,
@@ -153,8 +153,8 @@ def run_test(project_name, cmd_opts, remote_starter=None):
 
     if results_database is not None:
         print 'loading results into database: %s\n' % results_database
-        import multimechanize.resultsloader
-        multimechanize.resultsloader.load_results_database(project_name, run_localtime, output_dir, results_database,
+        import pyak47.resultsloader
+        pyak47.resultsloader.load_results_database(project_name, run_localtime, output_dir, results_database,
                 run_time, rampup, results_ts_interval, user_group_configs)
 
     if post_run_script is not None:
