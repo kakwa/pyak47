@@ -18,9 +18,6 @@
 
 ----
 
-
-----
-
 :Original author: `Corey Goldberg <http://goldb.org>`_ - copyright |copy| 2010-2013
 :Original project: `multimechanize.com <http://multimechanize.com>`_
 
