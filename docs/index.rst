@@ -12,7 +12,6 @@
 
 :Dev: `Pyak47 source <https://github.com/kakwa/pyak47>`_
 :PyPI: `Pyak47 package <http://pypi.python.org/pypi/pyak47>`_
-:Doc: `Documentation <http://pyak47.readthedocs.org>`_
 :License: `GNU LGPLv3 <http://www.gnu.org/licenses/lgpl.html>`_
 :Author: Pierre-Francois Carpentier - copyright |copy| 2014
 
