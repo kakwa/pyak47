@@ -14,12 +14,12 @@ python:
     - "2.7"
 
 script:
-  - rm -rf my_project
-  - pyak47-newproject my_project
-  - pyak47-run my_project
+    - rm -rf my_project
+    - pyak47-newproject my_project
+    - pyak47-run my_project
 
 notifications:
-  irc:
-    channels:
-      - "chat.freenode.net#pyak47"
-    skip_join: true
+    irc:
+        channels:
+            - "kornbluth.freenode.net#pyak47"
+        skip_join: true
