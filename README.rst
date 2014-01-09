@@ -4,12 +4,19 @@ pyak47
 Performance Test Framework.
 
 .. image:: https://secure.travis-ci.org/kakwa/pyak47.png?branch=master
-        :target: http://travis-ci.org/kakwa/pyak47
-        :alt: Travis CI
+    :target: http://travis-ci.org/kakwa/pyak47
+    :alt: Travis CI
 
 .. image:: https://pypip.in/d/pyak47/badge.png
     :target: https://pypi.python.org/pypi/pyak47
     :alt: Number of PyPI downloads
+
+
+Example
+-------
+
+.. figure:: https://raw2.github.com/kakwa/pyak47/master/docs/assets/graphs.png
+    :align: center
 
 Notice
 ======
