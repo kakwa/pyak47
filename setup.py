@@ -8,29 +8,29 @@
 
 
 """
-setup.py for multimechanize
+setup.py for pyak47
 """
 
 import os
 
 from setuptools import setup, find_packages
 
-from multimechanize import __version__
+from pyak47 import __version__
 
 
 this_dir = os.path.abspath(os.path.dirname(__file__))
 
 
-NAME = 'multi-mechanize'
+NAME = 'pyak47'
 VERSION = __version__
 PACKAGES = find_packages(exclude=['ez_setup'])
-DESCRIPTION = 'Multi-Mechanize - Performance Test Framework'
-URL = 'http://multimechanize.com'
+DESCRIPTION = 'pyak47 - Performance Test Framework'
+URL = 'https://github.com/kakwa/pyak47/'
 LICENSE = 'GNU LGPLv3'
 LONG_DESCRIPTION = open(os.path.join(this_dir, 'README.rst')).read()
 REQUIREMENTS = filter(None, open(os.path.join(this_dir, 'requirements.txt')).read().splitlines())
-AUTHOR = 'Corey Goldberg'
-AUTHOR_EMAIL = 'corey@goldb.org'
+AUTHOR = 'Pierre-Francois Carpentier'
+AUTHOR_EMAIL = 'carpentier.pf@gmail.com'
 KEYWORDS = ('performance', 'scalability', 'load', 'test', 'testing', 'benchmark')
 CLASSIFIERS = [
     'Development Status :: 4 - Beta',
@@ -44,9 +44,9 @@ CLASSIFIERS = [
     'Topic :: System :: Benchmark',
 ]
 CONSOLE_SCRIPTS = [
-    'multimech-run = multimechanize.utilities.run:main',
-    'multimech-newproject = multimechanize.utilities.newproject:main',
-    'multimech-gridgui = multimechanize.utilities.gridgui:main',
+    'pyak47-run = multimechanize.utilities.run:main',
+    'pyak47-newproject = multimechanize.utilities.newproject:main',
+    'pyak47-gridgui = multimechanize.utilities.gridgui:main',
 ]
 
 

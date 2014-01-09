@@ -1,108 +1,61 @@
+pyak47
+======
 
-================================================
-    Multi-Mechanize - Performance Test Framework
-================================================
+Performance Test Framework.
 
+.. image:: https://secure.travis-ci.org/kakwa/pyak47.png?branch=master
+        :target: http://travis-ci.org/kakwa/pyak47
+        :alt: Travis CI
+
+.. image:: https://pypip.in/d/pyak47/badge.png
+    :target: https://pypi.python.org/pypi/pyak47
+    :alt: Number of PyPI downloads
+
+Notice
+======
+
+This work is a fork of:`multimechanize <http://multimechanize.com>`_
+
+Original work copyright:
 * Copyright: (c) 2010-2013 Corey Goldberg (cgoldberg _at_ gmail.com)
-* License: GNU LGPLv3
-* Requires: Python 2.6 or 2.7
 
-----
+License
+-------
 
-:Web: `multimechanize.com <http://multimechanize.com>`_
-:PyPI: `multi-mechanize <http://pypi.python.org/pypi/multi-mechanize>`_
-:Dev: `git repo <http://github.com/cgoldberg/multi-mechanize>`_
-:Twitter: `multimechanize tweets <http://twitter.com/multimechanize>`_
-:IRC: #multimech (freenode)
+pyak47 is released under GNU LGPLv3.
 
-----
+Installation
+------------
 
-***********************
-    Docs / Instructions
-***********************
+Dependancies
+~~~~~~~~~~~~
 
-please visit: http://multimechanize.com
+* python 2.6 or python 2.7
+* matplotlib
 
-*******************
-    Install / Setup
-*******************
+Installation
+~~~~~~~~~~~~
 
-Multi-Mechanize can be installed from `PyPI <http://pypi.python.org/pypi/multi-mechanize>`_ using `pip <http://www.pip-installer.org>`_::
+Pyak47 can be installed from `PyPI <http://pypi.python.org/pypi/pyak47>`_ using `pip <http://www.pip-installer.org>`_::
     
-    pip install -U multi-mechanize
+    pip install -U pyak47
 
-... or download the `source distribution from PyPI <http://pypi.python.org/pypi/multi-mechanize#downloads>`_, unarchive, and run::
+... or download the `source distribution from PyPI <http://pypi.python.org/pypi/pyak47#downloads>`_, unarchive, and run::
 
     python setup.py install
 
-... then use ``multimech-newproject`` and ``multimech-run`` to create and run your performance test projects.
+Documentation
+-------------
 
-****************************
-    Detailed Install / Setup
-****************************
+please visit: http://pyak47.rtfd.org
 
-These instructions are for Debian/Ubuntu Linux.  For other 
-platforms, the setup is generally the same, with the exeption of 
-installing system dependencies.  
+Project initialization
+----------------------
 
------------------------
-    system-wide install
------------------------
+To create a project, run::
 
-* install dependencies on Debian/Ubuntu::
+    pyak47-newproject myproject
 
-    $ sudo apt-get install python-pip python-matplotlib
-    
-* install multi-mechanize from PyPI using Pip::
+To run your project::
 
-    $ sudo pip install -U multi-mechanize
-    
-* create a new project::
-
-    $ multimech-newproject my_project
-
-* run a project::
-
-    $ multimech-run my_project
-
-   
--------------------------------------------------------------
-    virtualenv + pip install (with matplotlib system package)
--------------------------------------------------------------
-
-* install dependencies on Debian/Ubuntu::
-
-    $ sudo apt-get install python-virtualenv python-matplotlib
-
-* install multi-mechanize from PyPI in a virtualenv::
-
-    $ virtualenv --system-site-packages ENV
-    $ cd ENV
-    $ source bin/activate
-    (ENV)$ pip install multi-mechanize
-    
-------------------------------------------------------
-    virtualenv + pip install (with --no-site-packages)
-------------------------------------------------------
-
-* install dependencies on Debian/Ubuntu::
-
-    $ sudo apt-get install build-essential libfreetype6-dev libpng-dev
-    $ sudo apt-get install python-dev python-virtualenv
-
-* install multi-mechanize and matplotlib from PyPI in a virtualenv::
-
-    $ virtualenv ENV
-    $ cd ENV
-    $ source bin/activate
-    (ENV)$ pip install multi-mechanize
-    (ENV)$ pip install matplotlib
-
------------------------------------------------
-    pip install latest dev branch from git repo
------------------------------------------------
-
-::
-
-    pip install -e git+http://github.com/cgoldberg/multi-mechanize.git#egg=multimechanize
-
+   pyak47-run myproject

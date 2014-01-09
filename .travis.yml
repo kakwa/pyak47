@@ -7,7 +7,6 @@ before_install:
 virtualenv:
     system_site_packages: true
 
-
 install:
     - pip install -e . --use-mirrors 
 
@@ -16,5 +15,5 @@ python:
 
 script:
   - rm -rf my_project
-  - multimech-newproject my_project
-  - multimech-run my_project
+  - pyak47-newproject my_project
+  - pyak47-run my_project
