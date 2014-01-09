@@ -16,6 +16,25 @@ Performance Test Framework.
 .. figure:: https://raw2.github.com/kakwa/pyak47/master/docs/assets/graphs.png
     :align: center
 
+----
+
+:Dev: `Pyak47 source <https://github.com/kakwa/pyak47>`_
+:PyPI: `Pyak47 package <http://pypi.python.org/pypi/pyak47>`_
+:Doc: `Documentation <http://pyak47.readthedocs.org>`_
+:License: `GNU LGPLv3 <http://www.gnu.org/licenses/lgpl.html>`_
+:Author: Pierre-Francois Carpentier - copyright |copy| 2014
+
+----
+
+
+----
+
+:Original author: `Corey Goldberg <http://goldb.org>`_ - copyright |copy| 2010-2013
+:Original project: `multimechanize.com <http://multimechanize.com>`_
+
+----
+
+
 Notice
 ======
 

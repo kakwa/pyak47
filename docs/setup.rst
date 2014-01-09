@@ -11,7 +11,7 @@ exeption of installing system dependencies.
     required
 ------------
 
-Multi-Mechanize requires `Python <http://python.org>`_ **2.6** or **2.7**
+Pyak47 requires `Python <http://python.org>`_ **2.6** or **2.7**
 
 -----------------------
     system-wide install
@@ -21,9 +21,9 @@ Multi-Mechanize requires `Python <http://python.org>`_ **2.6** or **2.7**
 
     $ sudo apt-get install python-pip python-matplotlib
     
-* install multi-mechanize from PyPI using Pip::
+* install pyak47 from PyPI using Pip::
 
-    $ sudo pip install -U multi-mechanize
+    $ sudo pip install -U pyak47
 
 -------------------------------------------------------------
     virtualenv + pip install (with matplotlib system package)
@@ -33,12 +33,12 @@ Multi-Mechanize requires `Python <http://python.org>`_ **2.6** or **2.7**
 
     $ sudo apt-get install python-virtualenv python-matplotlib
 
-* install multi-mechanize from PyPI in a virtualenv::
+* install pyak47 from PyPI in a virtualenv::
 
     $ virtualenv --system-site-packages ENV
     $ cd ENV
     $ source bin/activate
-    (ENV)$ pip install multi-mechanize
+    (ENV)$ pip install pyak47
     
 ------------------------------------------------------
     virtualenv + pip install (with no-site-packages)
@@ -49,19 +49,11 @@ Multi-Mechanize requires `Python <http://python.org>`_ **2.6** or **2.7**
     $ sudo apt-get install build-essential libfreetype6-dev libpng-dev
     $ sudo apt-get install python-dev python-virtualenv
 
-* install multi-mechanize and matplotlib from PyPI in a virtualenv::
+* install pyak47 and matplotlib from PyPI in a virtualenv::
 
     $ virtualenv ENV
     $ cd ENV
     $ source bin/activate
-    (ENV)$ pip install multi-mechanize
+    (ENV)$ pip install pyak47
     (ENV)$ pip install matplotlib
-
------------------------------------------------
-    pip install latest dev branch from git repo
------------------------------------------------
-
-::
-
-    pip install -e git+http://github.com/cgoldberg/multi-mechanize.git#egg=multimechanize
 

@@ -108,7 +108,6 @@ html_theme = 'nature'
 html_title = 'Pyak47 v%s Docs' % release
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
-#html_short_title = 'Multi-Mechanize - Performance Test Framework'
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.

@@ -1,8 +1,8 @@
 ---------------------------------------
-Build the Multi-Mechanize docs/website:
+Build the Pyak47 docs/website:
 ---------------------------------------
 
-The multi-mechanize documentation/website is built using `Sphinx`_.
+The pyak47 documentation/website is built using `Sphinx`_.
 
 .. _Sphinx: http://sphinx.pocoo.org/
 

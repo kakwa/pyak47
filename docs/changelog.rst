@@ -1,6 +1,20 @@
 Changelog
 =========
 
+Version 1.2.1, 2014-01-09
+*************************
+
+* first release of pyak47 (fork of multi-mechanize)
+* Github: https://github.com/kakwa/pyak47
+* renaming multimech-run and multimech-newproject to pyak47-run pyak47-newproject
+* renaming the python module
+* fix hard coded path to configuration in rpcserver.py
+* documentation on http://pyak47.readthedocs.org
+
+----
+
+Prior release under the name of multi-mechanize
+
 Version 1.?.?, 201?-??-??
 *************************
 

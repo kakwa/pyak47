@@ -1,7 +1,7 @@
 .. include:: <isonum.txt>
 
 ================================================
-    Multi-Mechanize | Performance Test Framework
+    Pyak47 | Performance Test Framework
 ================================================
 
 |
@@ -10,11 +10,19 @@
 
 ----
 
-:Web: `multimechanize.com <http://multimechanize.com>`_
-:PyPI: `multi-mechanize package <http://pypi.python.org/pypi/multi-mechanize>`_
-:Dev: `GitHub <http://github.com/cgoldberg/multi-mechanize>`_
+:Dev: `Pyak47 source <https://github.com/kakwa/pyak47>`_
+:PyPI: `Pyak47 package <http://pypi.python.org/pypi/pyak47>`_
+:Doc: `Documentation <http://pyak47.readthedocs.org>`_
 :License: `GNU LGPLv3 <http://www.gnu.org/licenses/lgpl.html>`_
-:Author: `Corey Goldberg <http://goldb.org>`_ - copyright |copy| 2010-2013
+:Author: Pierre-Francois Carpentier - copyright |copy| 2014
+
+----
+
+
+----
+
+:Original author: `Corey Goldberg <http://goldb.org>`_ - copyright |copy| 2010-2013
+:Original project: `multimechanize.com <http://multimechanize.com>`_
 
 ----
 
@@ -22,11 +30,11 @@
     Performance & Load Tests in Python
 **************************************
 
-Multi-Mechanize is an open source framework for performance and load testing. 
+Pyak47 is an open source framework for performance and load testing. 
 It runs concurrent Python scripts to generate load (synthetic transactions) 
 against a remote site or service.
 
-Multi-Mechanize is most commonly used for web performance and scalability 
+Pyak47 is most commonly used for web performance and scalability 
 testing, but can be used to generate workload against any remote API accessible 
 from Python.
 
@@ -51,19 +59,18 @@ Test output reports are saved as HTML or JMeter-compatible XML.
     Discussion / Help / Updates
 *******************************
 
-* IRC: `Freenode <http://freenode.net/>`_ ``#multimech`` channel
-* Mailing List: `Google Group <http://groups.google.com/group/multi-mechanize>`_
-* Twitter: `twitter.com/multimechanize <http://twitter.com/multimechanize>`_
+* IRC: `Freenode <http://freenode.net/>`_ ``#pyak47`` channel
+* Bugtracker: `Github <https://github.com/kakwa/pyak47/issues>`_
 
 *******************
     Install / Setup
 *******************
 
-Multi-Mechanize can be installed from `PyPI <http://pypi.python.org/pypi/multi-mechanize>`_ using `pip <http://www.pip-installer.org>`_::
+Pyak47 can be installed from `PyPI <http://pypi.python.org/pypi/pyak47>`_ using `pip <http://www.pip-installer.org>`_::
     
-    pip install -U multi-mechanize
+    pip install -U pyak47
 
-... or download the `source distribution from PyPI <http://pypi.python.org/pypi/multi-mechanize#downloads>`_, unarchive, and run::
+... or download the `source distribution from PyPI <http://pypi.python.org/pypi/pyak47#downloads>`_, unarchive, and run::
 
     python setup.py install
 
@@ -77,9 +84,9 @@ Multi-Mechanize can be installed from `PyPI <http://pypi.python.org/pypi/multi-m
     Create a Project
 --------------------
 
-Create a new test project with ``multimech-newproject``::
+Create a new test project with ``pyak47-newproject``::
 
-    $ multimech-newproject my_project
+    $ pyak47-newproject my_project
 
 Each test project contains the following:
 
@@ -87,15 +94,15 @@ Each test project contains the following:
  * ``test_scripts/``: directory for virtual user scripts. add your test scripts here.
  * ``results/``: directory for results storage. a timestamped directory is created for each test run, containing the results report.
 
-``multimech-newproject`` will create a mock project, using a single script that generates random timer data.  Check it out for a basic example. 
+``pyak47-newproject`` will create a mock project, using a single script that generates random timer data.  Check it out for a basic example. 
 
 -----------------
     Run a Project
 -----------------
 
-Run a test project with ``multimech-run``::
+Run a test project with ``pyak47-run``::
 
-    $ multimech-run my_project
+    $ pyak47-run my_project
 
 * for test configuration options, see :ref:`config-label`
 * a timestamped ``results`` directory is created for each test run, containing the results report.
