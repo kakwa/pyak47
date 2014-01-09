@@ -14,9 +14,10 @@ Performance Test Framework.
 Notice
 ======
 
-This work is a fork of:`multimechanize <http://multimechanize.com>`_
+This work is a fork of `Multi-Mechanize <http://multimechanize.com>`_ from Corey Goldberg.
 
 Original work copyright:
+
 * Copyright: (c) 2010-2013 Corey Goldberg (cgoldberg _at_ gmail.com)
 
 License
