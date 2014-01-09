@@ -44,9 +44,9 @@ CLASSIFIERS = [
     'Topic :: System :: Benchmark',
 ]
 CONSOLE_SCRIPTS = [
-    'pyak47-run = multimechanize.utilities.run:main',
-    'pyak47-newproject = multimechanize.utilities.newproject:main',
-    'pyak47-gridgui = multimechanize.utilities.gridgui:main',
+    'pyak47-run = pyak47.utilities.run:main',
+    'pyak47-newproject = pyak47.utilities.newproject:main',
+    'pyak47-gridgui = pyak47.utilities.gridgui:main',
 ]
 
 
