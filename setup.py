@@ -27,7 +27,9 @@ PACKAGES = find_packages(exclude=['ez_setup'])
 DESCRIPTION = 'pyak47 - Performance Test Framework'
 URL = 'https://github.com/kakwa/pyak47/'
 LICENSE = 'GNU LGPLv3'
-LONG_DESCRIPTION = open(os.path.join(this_dir, 'README.rst')).read()
+f = open(os.path.join(os.path.dirname(__file__), 'README.rst'))
+description = f.read()
+f.close()
 REQUIREMENTS = filter(None, open(os.path.join(this_dir, 'requirements.txt')).read().splitlines())
 AUTHOR = 'Pierre-Francois Carpentier'
 AUTHOR_EMAIL = 'carpentier.pf@gmail.com'
@@ -60,7 +62,7 @@ params = dict(
     author=AUTHOR,
     author_email=AUTHOR_EMAIL,
     description=DESCRIPTION,
-    long_description=LONG_DESCRIPTION,
+    long_description=description,
     keywords=KEYWORDS,
     url=URL,
     classifiers=CLASSIFIERS,
