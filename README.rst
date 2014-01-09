@@ -22,14 +22,11 @@ Performance Test Framework.
 :PyPI: `Pyak47 package <http://pypi.python.org/pypi/pyak47>`_
 :Doc: `Documentation <http://pyak47.readthedocs.org>`_
 :License: `GNU LGPLv3 <http://www.gnu.org/licenses/lgpl.html>`_
-:Author: Pierre-Francois Carpentier - copyright |copy| 2014
+:Author: Pierre-Francois Carpentier - copyright 2014
 
 ----
 
-
-----
-
-:Original author: `Corey Goldberg <http://goldb.org>`_ - copyright |copy| 2010-2013
+:Original author: `Corey Goldberg <http://goldb.org>`_ - copyright 2010-2013
 :Original project: `multimechanize.com <http://multimechanize.com>`_
 
 ----
