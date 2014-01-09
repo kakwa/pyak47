@@ -47,10 +47,10 @@ Here is some sample code for retrieving results from the database via sqlalchemy
 
     from sqlalchemy import create_engine
     from sqlalchemy.orm import sessionmaker
-    from multimechanize.resultsloader import ResultRow
-    from multimechanize.resultsloader import GlobalConfig
-    from multimechanize.resultsloader import UserGroupConfig
-    from multimechanize.resultsloader import TimerRow
+    from pyak47.resultsloader import ResultRow
+    from pyak47.resultsloader import GlobalConfig
+    from pyak47.resultsloader import UserGroupConfig
+    from pyak47.resultsloader import TimerRow
 
     engine = create_engine('sqlite:///results.db')
     session = sessionmaker(bind=engine)
