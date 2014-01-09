@@ -62,7 +62,7 @@ div.footer a {
 }
  
 div.related {
-    background-color: #DD4814;
+    background-color: #094a65;
     line-height: 32px;
     color: #fff;
     font-size: 0.9em;
@@ -133,12 +133,12 @@ div.sphinxsidebar input[type=text]{
 /* -- body styles ----------------------------------------------------------- */
  
 a {
-    color: #5E2750;
+    color: #6f8c93;
     text-decoration: none;
 }
  
 a:hover {
-    color: #DD4814;
+    color: #094a65;
     text-decoration: underline;
 }
  
@@ -157,12 +157,12 @@ div.body h6 {
     text-shadow: 0px 1px 0 white
 }
  
-div.body h1 { border-top: 20px solid white; margin-top: 0; font-size: 225%; color: #EEEEEE; background-color: #5E2750;}
-div.body h2 { font-size: 140%; color: #EEEEEE; background-color: #5E2750; }
+div.body h1 { border-top: 20px solid white; margin-top: 0; font-size: 225%; color: #EEEEEE; background-color: #6f8c93;}
+div.body h2 { font-size: 140%; color: #EEEEEE; background-color: #6f8c93; }
 div.body h3 { font-size: 120%; color: #2C001E; background-color: #C0C0C0; }
-div.body h4 { font-size: 100%; color: #EEEEEE; background-color: #772953; }
-div.body h5 { font-size: 100%; color: #EEEEEE; background-color: #772953; }
-div.body h6 { font-size: 100%; color: #EEEEEE; background-color: #772953; }
+div.body h4 { font-size: 100%; color: #EEEEEE; background-color: #6f8c92; }
+div.body h5 { font-size: 100%; color: #EEEEEE; background-color: #6f8c92; }
+div.body h6 { font-size: 100%; color: #EEEEEE; background-color: #6f8c92; }
  
 a.headerlink {
     color: #333333;

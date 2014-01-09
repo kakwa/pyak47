@@ -6,7 +6,7 @@
 
 |
 
-.. image:: assets/multimech-450.png
+.. image:: assets/pyk47-200.png
 
 |
 

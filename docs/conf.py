@@ -43,8 +43,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Multi-Mechanize - Performance Test Framework'
-copyright = u'2010-2012, Corey Goldberg'
+project = u'Pyak47 - Performance Test Framework'
+copyright = u'2013, Pierre-Francois Carpentier'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -105,14 +105,14 @@ html_theme = 'nature'
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = 'Multi-Mechanize v%s Docs' % release
+html_title = 'Pyak47 v%s Docs' % release
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = 'Multi-Mechanize - Performance Test Framework'
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-html_logo = './_static/multimech-200.png'
+html_logo = './_static/pyak47-70.png'
 
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
@@ -166,5 +166,5 @@ html_show_copyright = True
 html_file_suffix = ".html"
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Multi-Mech-docs'
+htmlhelp_basename = 'Pyak47-docs'
 
