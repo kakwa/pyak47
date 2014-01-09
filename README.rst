@@ -11,9 +11,7 @@ Performance Test Framework.
     :target: https://pypi.python.org/pypi/pyak47
     :alt: Number of PyPI downloads
 
-
-Example
--------
+|
 
 .. figure:: https://raw2.github.com/kakwa/pyak47/master/docs/assets/graphs.png
     :align: center
