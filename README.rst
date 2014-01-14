@@ -80,3 +80,9 @@ To create a project, run::
 To run your project::
 
    pyak47-run myproject
+
+
+.. image:: https://d2weczhvl823v0.cloudfront.net/kakwa/pyak47/trend.png
+   :alt: Bitdeli badge
+   :target: https://bitdeli.com/free
+
